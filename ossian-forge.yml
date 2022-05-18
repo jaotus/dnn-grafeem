@@ -1,0 +1,21 @@
+name: ossian
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  - python=2.7
+  - pip=19.3.1
+  #ossian
+  - numpy
+  - scipy=1.2.1
+  - regex=2019.12.19
+  - lxml=4.4.2
+  - scikit-learn=0.20.3
+  - configobj=5.0.6
+  #merlin
+  #- bandmat
+  - theano=1.0.4
+  - matplotlib
+  - pip:
+    - bandmat
+    - argparse

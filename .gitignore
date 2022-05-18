@@ -1,0 +1,12 @@
+/.idea
+/local
+/corpus/
+/train/*
+/voices/*
+/test/*
+/ossian-download
+/Ossian-master
+/venv
+*.tar
+*.iml
+*.bak
